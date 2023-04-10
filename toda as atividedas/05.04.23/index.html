@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+    <form action="">
+        <fieldset>
+            <legend>Indentificaçao</legend>
+            <label for="cNome">Nome</label>
+        <input type="text" id="cNome" required>
+        <br><br>
+        <input type="submit" value="mostar"><br>
+        <p>Onde você mora</p>
+        <input type="radio">
+        <label for="">cidade</label><br>
+        <input type="radio">
+        <label for="">interior</label><br>
+        </fieldset>
+    
+        <fieldset>
+            <legend>Locomoção</legend>
+            <p>Qual é o seu meio de transporte?</p>
+        <input type="checkbox">
+        <label for="">bicicleta</label><br>
+        <input type="checkbox">
+        <label for="">Onibus</label><br>
+        <input type="checkbox">
+        <label for="">metrô</label><br>
+        <input type="submit" value="encaminhar"><br>
+        </fieldset>
+<fieldset>
+    <legend>Duvida</legend>
+    <p>Selecione o seu time:</p>
+        <select name="" id="">
+            <option value="palmeiras">palmeiras</option>
+            <option value="são paulo">são paulo</option>
+            <option value="vasco">vasco</option>
+            <option value="flamengo">flamengo</option>
+        </select><br><br>
+</fieldset>
+        
+        <fieldset>
+            <legend>Cidade</legend>
+            <p>Escolha a sua cidade</p>
+        <label for="">Cidade</label>
+        <input autocomplete="on" list="cidade" placeholder="Sua Cidade">
+        <datalist id="Cidade">
+            <option value="são Paulo">São Paulo</option>
+            <option value="bahia">Bahia</option>
+            <option value="minas Gerais">Minas Gerais</option>
+            <option value="rio de janeiro">Rio de janeiro</option>
+            </datalist><br><br>
+        </fieldset>
+<fieldset>
+    <legend>Sua opinião</legend>
+    0 <input type="range"> 100 <br><br>
+            
+    <p>Sugestoes, elogios e criticas:</p>
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+</fieldset>
+    </form>
+</body>
+</html>

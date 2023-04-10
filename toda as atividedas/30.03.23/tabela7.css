@@ -1,0 +1,22 @@
+table, td, th{
+    border: 1px  rgb(182, 180, 180);
+    border-collapse: collapse;  
+    background-color: black;
+    text-align: justify;
+    text-align: center;
+}
+.cor{
+    color: rgb(204, 197, 197);
+}
+.tt{
+    text-align: left;
+}
+table{
+    width: 600px;
+}
+.lado{
+    text-align: left;
+}
+table, td{
+    border-top: 1px solid;
+}
